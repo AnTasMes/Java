@@ -1,0 +1,943 @@
+{
+  "top": {
+    "config": {
+      "responsiveSizes": [
+        {
+          "window": [1024, 0],
+          "sizes": [
+            "fluid",
+            [980, 120],
+            [980, 90],
+            [970, 250],
+            [970, 90],
+            [950, 90],
+            [930, 180],
+            [750, 100],
+            [750, 300],
+            [750, 200],
+            [728, 90]
+          ]
+        },
+        {
+          "window": [768, 0],
+          "sizes": ["fluid", [728, 90], [468, 60], [320, 50], [300, 50]]
+        },
+        {
+          "window": [0, 0],
+          "sizes": [
+            [320, 100],
+            [320, 50],
+            [300, 250],
+            [300, 100],
+            [300, 50],
+            [250, 360],
+            [240, 400]
+          ]
+        }
+      ],
+      "bids": [
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 12729470,
+            "supplyType": "web",
+            "position": "above",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top/weather/extended"]
+            },
+            "reserve": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 18044795,
+            "supplyType": "web",
+            "position": "above",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top/weather/extended"]
+            },
+            "reserve": 2.75
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197757,
+            "size": [728, 90],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197759,
+            "size": [970, 250],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 495861,
+            "size": [970, 250],
+            "bidFloor": 2.75,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 640474,
+            "sizes": [2, 55, 57],
+            "position": "atf",
+            "accountId": "12562",
+            "floor": 0.1
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 1518598,
+            "sizes": [2, 55, 57],
+            "position": "atf",
+            "accountId": "12562",
+            "floor": 3.0
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "triplelift",
+          "params": {
+            "inventoryCode": "accuweather_d_top_leaderboard_pbjs",
+            "floor": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "criteo",
+          "params": { "publisherSubId": "Web Top", "networkId": 3852 },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "pubmatic",
+          "params": {
+            "adSlot": "/706795/Web_HB_Top",
+            "publisherId": "34576",
+            "kadfloor": "0.02"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "yahoossp",
+          "params": {
+            "pos": "web_hb_top_1",
+            "dcn": "8a9691d3017474551cc955a9acbd0027"
+          },
+          "isBuyItNow": false
+        },
+        { "bidder": "grid", "params": { "uid": "6028" }, "isBuyItNow": false },
+        {
+          "bidder": "openx",
+          "params": {
+            "unit": "539580665",
+            "delDomain": "accuweather-d.openx.net",
+            "customParams": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top/weather/extended"]
+            },
+            "customFloor": 0.02
+          },
+          "isBuyItNow": false
+        }
+      ]
+    },
+    "adType": "top",
+    "viewport": "tablet desktop",
+    "adDivId": "top",
+    "adUnitCode": "/6581/web/eur/top/weather/extended",
+    "upr": 0.6,
+    "includeInSRA": true
+  },
+  "native": {
+    "config": {
+      "sizes": ["fluid", [2, 2]],
+      "bids": [
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 16139770,
+            "supplyType": "web",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/native/weather/extended"]
+            },
+            "reserve": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "triplelift",
+          "params": {
+            "inventoryCode": "accuweather_d_weather_native_pbjs",
+            "floor": 0.02
+          },
+          "isBuyItNow": false
+        }
+      ]
+    },
+    "adType": "native",
+    "viewport": "",
+    "adDivId": "native",
+    "adUnitCode": "/6581/web/eur/native/weather/extended",
+    "upr": 0.2,
+    "includeInSRA": true
+  },
+  "top_right": {
+    "config": {
+      "responsiveSizes": [
+        {
+          "window": [1024, 0],
+          "sizes": [
+            "fluid",
+            [300, 250],
+            [300, 600],
+            [250, 360],
+            [240, 400],
+            [160, 600]
+          ]
+        },
+        {
+          "window": [768, 0],
+          "sizes": [
+            "fluid",
+            [300, 250],
+            [300, 600],
+            [300, 100],
+            [250, 360],
+            [240, 400],
+            [160, 600]
+          ]
+        },
+        { "window": [0, 0], "sizes": [] }
+      ],
+      "bids": [
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 12729473,
+            "supplyType": "web",
+            "position": "above",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top_right/weather/extended"]
+            },
+            "reserve": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 18044796,
+            "supplyType": "web",
+            "position": "above",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top_right/weather/extended"]
+            },
+            "reserve": 2.75
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197760,
+            "size": [300, 250],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197761,
+            "size": [300, 600],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197763,
+            "size": [160, 600],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 495859,
+            "size": [300, 250],
+            "bidFloor": 2.75,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 640474,
+            "sizes": [9, 15, 10],
+            "position": "atf",
+            "accountId": "12562",
+            "floor": 0.1
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 1518598,
+            "sizes": [9, 10, 15],
+            "position": "atf",
+            "accountId": "12562",
+            "floor": 3.0
+          },
+          "isBuyItNow": true
+        },
+        {
+          "bidder": "triplelift",
+          "params": {
+            "inventoryCode": "accuweather_d_topright_rectangle_pbjs",
+            "floor": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "criteo",
+          "params": { "publisherSubId": "Web Top Right", "networkId": 3852 },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "pubmatic",
+          "params": {
+            "adSlot": "/706803/Web_HB_Top",
+            "publisherId": "34576",
+            "kadfloor": "0.02"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "yahoossp",
+          "params": {
+            "pos": "web_hb_top_2",
+            "dcn": "8a9691d3017474551cc955a9acbd0027"
+          },
+          "isBuyItNow": false
+        },
+        { "bidder": "grid", "params": { "uid": "6029" }, "isBuyItNow": false },
+        {
+          "bidder": "openx",
+          "params": {
+            "unit": "539580668",
+            "delDomain": "accuweather-d.openx.net",
+            "customParams": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/top_right/weather/extended"]
+            },
+            "customFloor": 0.02
+          },
+          "isBuyItNow": false
+        }
+      ]
+    },
+    "adType": "top_right",
+    "viewport": "tablet desktop",
+    "adDivId": "top_right",
+    "adUnitCode": "/6581/web/eur/top_right/weather/extended",
+    "upr": 0.5,
+    "includeInSRA": true
+  },
+  "bottom_right": {
+    "config": {
+      "responsiveSizes": [
+        {
+          "window": [1024, 0],
+          "sizes": [
+            "fluid",
+            [300, 250],
+            [300, 600],
+            [250, 360],
+            [240, 400],
+            [300, 251],
+            [300, 601],
+            [160, 600]
+          ]
+        },
+        {
+          "window": [768, 0],
+          "sizes": [
+            "fluid",
+            [300, 250],
+            [300, 600],
+            [300, 100],
+            [250, 360],
+            [240, 400],
+            [300, 251],
+            [300, 601],
+            [160, 600]
+          ]
+        },
+        { "window": [0, 0], "sizes": [] }
+      ],
+      "bids": [
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 12729478,
+            "supplyType": "web",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/bottom_right/weather/extended"]
+            },
+            "reserve": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197765,
+            "size": [300, 250],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197766,
+            "size": [300, 600],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197768,
+            "size": [160, 600],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 640476,
+            "sizes": [15],
+            "accountId": "12562",
+            "floor": 0.05
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "triplelift",
+          "params": {
+            "inventoryCode": "accuweather_d_bottomright_rectangle_pbjs",
+            "floor": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "criteo",
+          "params": { "publisherSubId": "Web Bottom Right", "networkId": 3852 },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "pubmatic",
+          "params": {
+            "adSlot": "/706856/Web_HB_Bottom",
+            "publisherId": "34576",
+            "kadfloor": "0.02"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "yahoossp",
+          "params": {
+            "pos": "web_hb_bottom_2",
+            "dcn": "8a9691d3017474551cc955a9acbd0027"
+          },
+          "isBuyItNow": false
+        },
+        { "bidder": "grid", "params": { "uid": "6031" }, "isBuyItNow": false },
+        {
+          "bidder": "openx",
+          "params": {
+            "unit": "539580673",
+            "delDomain": "accuweather-d.openx.net",
+            "customParams": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/bottom_right/weather/extended"]
+            },
+            "customFloor": 0.02
+          },
+          "isBuyItNow": false
+        }
+      ]
+    },
+    "adType": "bottom_right",
+    "viewport": "tablet desktop",
+    "adDivId": "bottom_right",
+    "adUnitCode": "/6581/web/eur/bottom_right/weather/extended",
+    "upr": 0.45,
+    "includeInSRA": true
+  },
+  "bottom": {
+    "config": {
+      "responsiveSizes": [
+        {
+          "window": [1024, 0],
+          "sizes": [
+            "fluid",
+            [980, 120],
+            [980, 90],
+            [970, 251],
+            [970, 250],
+            [970, 90],
+            [950, 90],
+            [930, 180],
+            [750, 100],
+            [750, 200],
+            [750, 300],
+            [728, 91],
+            [728, 90]
+          ]
+        },
+        {
+          "window": [768, 0],
+          "sizes": [
+            "fluid",
+            [728, 91],
+            [728, 90],
+            [468, 60],
+            [320, 51],
+            [320, 50],
+            [300, 51],
+            [300, 50]
+          ]
+        },
+        {
+          "window": [0, 0],
+          "sizes": [
+            "fluid",
+            [320, 100],
+            [320, 51],
+            [300, 250],
+            [300, 600],
+            [336, 280],
+            [320, 50],
+            [300, 50],
+            [300, 100],
+            [300, 51],
+            [300, 251],
+            [300, 100],
+            [250, 360],
+            [240, 400]
+          ]
+        }
+      ],
+      "bids": [
+        {
+          "bidder": "appnexus",
+          "params": {
+            "placementId": 12729477,
+            "supplyType": "web",
+            "keywords": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/bottom/weather/extended"]
+            },
+            "reserve": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197764,
+            "size": [728, 90],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "ix",
+          "params": {
+            "siteId": 197764,
+            "size": [970, 250],
+            "bidFloor": 0.02,
+            "bidFloorCur": "USD"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "rubicon",
+          "params": {
+            "siteId": 135890,
+            "zoneId": 640476,
+            "sizes": [2, 57],
+            "accountId": "12562",
+            "floor": 0.05
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "triplelift",
+          "params": {
+            "inventoryCode": "accuweather_d_bottom_leaderboard_pbjs",
+            "floor": 0.02
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "criteo",
+          "params": { "publisherSubId": "Web Bottom", "networkId": 3852 },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "pubmatic",
+          "params": {
+            "adSlot": "/706850/Web_HB_Bottom",
+            "publisherId": "34576",
+            "kadfloor": "0.02"
+          },
+          "isBuyItNow": false
+        },
+        {
+          "bidder": "yahoossp",
+          "params": {
+            "pos": "web_hb_bottom_1",
+            "dcn": "8a9691d3017474551cc955a9acbd0027"
+          },
+          "isBuyItNow": false
+        },
+        { "bidder": "grid", "params": { "uid": "6030" }, "isBuyItNow": false },
+        {
+          "bidder": "openx",
+          "params": {
+            "unit": "539580672",
+            "delDomain": "accuweather-d.openx.net",
+            "customParams": {
+              "fdate": ["20220904"],
+              "advelvet": ["16"],
+              "pgview": ["2"],
+              "partner": ["accuweather"],
+              "ufdb": ["LQB9"],
+              "country": ["RS"],
+              "state": ["00"],
+              "alertscategory": ["SEVERE"],
+              "alertssource": ["RS"],
+              "alertstypeid": ["RS312"],
+              "cuhd": ["52"],
+              "cuhi": ["76"],
+              "cuuv": ["2"],
+              "cuwd": ["7"],
+              "cuwx": ["2"],
+              "realfeel": ["80", "a80", "b80", "c80", "d80"],
+              "fc1hi": ["77"],
+              "fc1lo": ["61"],
+              "fc1wx": ["14"],
+              "lfscategory": ["rain"],
+              "lfsday": ["1"],
+              "lfsseverity": ["5"],
+              "lfs": ["5_rain_1"],
+              "pt": ["0"],
+              "adunit": ["/6581/web/eur/bottom/weather/extended"]
+            },
+            "customFloor": 0.02
+          },
+          "isBuyItNow": false
+        }
+      ]
+    },
+    "adType": "bottom",
+    "viewport": "",
+    "adDivId": "bottom",
+    "adUnitCode": "/6581/web/eur/bottom/weather/extended",
+    "upr": 0.2,
+    "includeInSRA": true
+  },
+  "oop": {
+    "adType": "oop",
+    "viewport": "",
+    "adDivId": "oop",
+    "adUnitCode": "/6581/web/eur/oop/weather/extended",
+    "upr": 0.02,
+    "includeInSRA": true
+  },
+  "interstitial": {
+    "adType": "interstitial",
+    "viewport": "",
+    "adDivId": "interstitial",
+    "adUnitCode": "/6581/web/eur/interstitial/weather/extended",
+    "upr": 3.0,
+    "includeInSRA": false
+  }
+}
