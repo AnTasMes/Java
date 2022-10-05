@@ -1,0 +1,26 @@
+package antas.tech.demo.domains;
+
+public enum LogType {
+    STARTUP,
+    MESSAGE,
+    JOIN,
+    LEAVE,
+    KICK,
+    BAN,
+    UNBAN,
+    CREATE_CHANNEL,
+    DELETE_CHANNEL,
+    RENAME_CHANNEL,
+    BITRATE_CHANGE_CHANNEL,
+
+    CREATE_ROLE,
+    DELETE_ROLE,
+    RENAME_ROLE,
+    COLOR_CHANGE_ROLE,
+    PERMISSION_CHANGE_ROLE,
+
+    VOICE_STATE_UPDATE,
+    COMMAND_EXECUTION,
+    LOG,
+    EXCEPTION
+}
