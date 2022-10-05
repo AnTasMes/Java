@@ -6,14 +6,6 @@ This is a small Discord bot project that utilizes Java SpringBoot framework.
 
 - This, below, is a simple visualisation of the MVC architecture used in the project.
 
-<style>
-    .center{
-        text-align: center;
-        margin: auto;
-        border: 1px solid;
-        padding: 10px:
-    }
-</style>
 <div class="center">
 
 ```mermaid
