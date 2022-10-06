@@ -13,13 +13,13 @@ public class ServerCategory {
     private String uid;
     private String name;
     private UserRole ownerRole;
+    private List<ServerChannel> children;
 
-    private List<ServerChannel> children; // Add children for each Category
-
-    public ServerCategory(String uid, String name, UserRole ownerRole) {
+    public ServerCategory(String uid, String name, UserRole ownerRole, List<ServerChannel> children) {
         this.uid = uid;
         this.name = name;
         this.ownerRole = ownerRole;
+        this.children = children;
     }
 
     public ServerCategory(String uid, String name) {
@@ -52,5 +52,21 @@ public class ServerCategory {
 
     public void setOwnerRole(UserRole ownerRole) {
         this.ownerRole = ownerRole;
+    }
+
+    public ObjectId getObjectId() {
+        return objectId;
+    }
+
+    public void setObjectId(ObjectId objectId) {
+        this.objectId = objectId;
+    }
+
+    public List<ServerChannel> getChildren() {
+        return children;
+    }
+
+    public void setChildren(List<ServerChannel> children) {
+        this.children = children;
     }
 }

@@ -10,6 +10,7 @@ import com.jagrosh.jdautilities.command.SlashCommand;
 import com.jagrosh.jdautilities.command.SlashCommandEvent;
 
 import antas.tech.demo.models.UserRole;
+import antas.tech.demo.handlers.ChannelHandler;
 import antas.tech.demo.models.ServerCategory;
 import antas.tech.demo.services.CategoryService;
 import net.dv8tion.jda.api.entities.Role;
@@ -45,7 +46,11 @@ public class CombineCatRole extends SlashCommand {
 
         if (category != null) {
             categoryService.bindCategoryRole(
-                    new ServerCategory(categoryID, category.getName(), new UserRole(role.getId(), role.getName())));
+                    new ServerCategory(
+                            categoryID,
+                            category.getName(),
+                            new UserRole(role.getId(), role.getName()),
+                            ChannelHandler.resolveChannels(category.getChannels())));
         }
     }
 

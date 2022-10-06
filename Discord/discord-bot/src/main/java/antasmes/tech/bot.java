@@ -13,17 +13,15 @@ import antasmes.MongoDB.Records.LogRecord;
 import antasmes.MongoDB.Records.RecordBuilder;
 import antasmes.MongoDB.Types.LogKeys;
 import antasmes.MongoDB.Types.LogType;
-import antasmes.tech.HTMLUnit.AccuWeather.AccuWeather;
-import antasmes.tech.HTMLUnit.AccuWeather.AccuWeather.ForecastType;
 import antasmes.tech.Handles.JSONHandler;
 import antasmes.tech.Listeners.ChannelUpdateListener;
 import antasmes.tech.Listeners.MessageListener;
 import antasmes.tech.Listeners.VoiceStateListener;
-import net.dv8tion.jda.api.JDA;
-import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 
 public class bot {
@@ -80,8 +78,8 @@ public class bot {
 
         // logManager.log(botStartup);
 
-        AccuWeather accuWeather = new AccuWeather("Zagreb");
-        accuWeather.getForecast(ForecastType.CURRENT); // srediti ovaj exception
+        // AccuWeather accuWeather = new AccuWeather("Zagreb");
+        // accuWeather.getForecast(ForecastType.CURRENT); // srediti ovaj exception
     }
 
     /**

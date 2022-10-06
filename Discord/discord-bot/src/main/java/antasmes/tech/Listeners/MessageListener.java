@@ -20,11 +20,11 @@ public class MessageListener extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event) {
 
         messageRecord = (LogRecord) new RecordBuilder().addKeys(map -> {
-            map.put(LogKeys.MESSAGE, event.getMessage().getContentRaw());
+            map.put(LogKeys.MESSAGE     , event.getMessage().getContentRaw());
             map.put(LogKeys.CHANNEL_NAME, event.getChannel().getName());
-            map.put(LogKeys.CHANNEL_ID, event.getChannel().getId());
-            map.put(LogKeys.USER_NAME, event.getAuthor().getName());
-            map.put(LogKeys.USER_ID, event.getAuthor().getId());
+            map.put(LogKeys.CHANNEL_ID  , event.getChannel().getId());
+            map.put(LogKeys.USER_NAME   , event.getAuthor().getName());
+            map.put(LogKeys.USER_ID     , event.getAuthor().getId());
             return map;
         }).build(LogType.MESSAGE);
 
@@ -77,19 +77,14 @@ public class MessageListener extends ListenerAdapter {
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IllegalAccessException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IllegalArgumentException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (InvocationTargetException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (SecurityException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }

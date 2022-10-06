@@ -26,12 +26,12 @@ public class CurrentForecast extends Forecast {
         String[] dataString = anchorData.getText().split("\n");
         List<String> dataList = new ArrayList<String>(Arrays.asList(dataString));
 
-        this.time = dataList.get(1);
-        this.temperature = dataList.get(2);
-        this.realFeel = dataList.get(3).replace("RealFeel?", "");
+        this.time          = dataList.get(1);
+        this.temperature   = dataList.get(2);
+        this.realFeel      = dataList.get(3).replace("RealFeel?", "");
         this.realFeelShade = dataList.get(5);
-        this.airQuality = dataList.get(7);
-        this.message = dataList.get(12);
+        this.airQuality    = dataList.get(7);
+        this.message       = dataList.get(12);
     }
 
     @Override
@@ -41,12 +41,12 @@ public class CurrentForecast extends Forecast {
 
     @Override
     protected void makeMap() {
-        map.put(LogKeys.TIMESTAMP, time);
-        map.put(LogKeys.TEMP, temperature);
-        map.put(LogKeys.REAL_FEEL, realFeel);
+        map.put(LogKeys.TIMESTAMP      , time);
+        map.put(LogKeys.TEMP           , temperature);
+        map.put(LogKeys.REAL_FEEL      , realFeel);
         map.put(LogKeys.REAL_FEEL_SHADE, realFeelShade);
-        map.put(LogKeys.MESSAGE, message);
-        map.put(LogKeys.AIR_QUALITY, airQuality);
+        map.put(LogKeys.MESSAGE        , message);
+        map.put(LogKeys.AIR_QUALITY    , airQuality);
     }
 
     @Override

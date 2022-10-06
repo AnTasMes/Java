@@ -11,7 +11,6 @@ import com.jagrosh.jdautilities.command.SlashCommandEvent;
 
 import antas.tech.demo.handlers.RoleHandler;
 import antas.tech.demo.models.User;
-import antas.tech.demo.services.ErrLogService;
 import antas.tech.demo.services.UserService;
 import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.Member;
@@ -21,15 +20,12 @@ public class InsertUsers extends SlashCommand {
 
     UserService userService;
 
-    ErrLogService errLogService;
-
     @Autowired
-    public InsertUsers(UserService userService, ErrLogService errLogService) {
+    public InsertUsers(UserService userService) {
         this.name = "insert";
         this.help = "Imports users";
 
         this.userService = userService;
-        this.errLogService = errLogService;
     }
 
     @Override
