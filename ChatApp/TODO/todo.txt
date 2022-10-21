@@ -1,0 +1,56 @@
+Kreirati chat aplikaciju koja omogucava povezivanje vise korisnika i cuvanje njihovih medjusobnih poruka.
+ - Poruke je moguce poslati samo korisnicima koji su obelezeni kao prijatelji
+ - Svaka poruka se cuva izmedju samo dva korisnika
+ - Korisnike je moguce dodati preko Username-a
+
+Server:
+ - Ubuntu (VM Box) -> MongoDB
+ - MongoDB connection string => "mongodb://ca_admin@192.168.0.27:27018/cadb"
+ - MongoDB cadb admin user => ca_admin:capwd
+
+
+Tools:
+ - GraphQL
+ - Spring
+ - MonogDB
+
+- User:
+{
+    unique_id,
+    username,
+    password (encryped potenc),
+    email,
+    last_seen,
+    last_typed,
+    friends: []
+}
+
+- Message:
+{
+    unique_id,
+    text_value,
+    timestamp,
+    username_s,
+    username_r
+}
+
+Server:
+[x] Setup
+[x] Setup MongoDB
+[x] Setup ssh
+[x] Setup ssh mongo_user (no root privileges - without root password)
+[x] Enable db_admin user auth
+
+API ToDO: 
+[x] Setup server connection
+[x] Enable connection to db through ssh
+[] Basic UI
+[] Enable user creation
+[] Enable user validation
+[] Enable message creation
+[] Enable user configuration
+
+Model ToDO:
+[x] User
+[x] Message 
+
