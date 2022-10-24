@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="antasmes.tech.demo.controllers.javaFx.SignUpPageController">
+    <children>
+        <Label text="Create your account here" />
+        <TextField fx:id="usernameInput" promptText="Username" />
+        <PasswordField fx:id="passwordInput" promptText="Password" />
+        <PasswordField fx:id="passwordInput" promptText="Confirm password" />
+        <GridPane hgap="50" alignment="center">
+            <Button fx:id="btnSignUp" text="Back to login" onAction="#switchToLogin"
+                GridPane.columnIndex="0" />
+            <Button fx:id="btnLogin" text="Create account" onAction="#create"
+                GridPane.columnIndex="1" />
+        </GridPane>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

@@ -18,7 +18,7 @@ public class SSHConfig {
     }
 
     public void setUser(String user) {
-        this.user = user.replace("\"", "");
+        this.user = user;
     }
 
     public String getHost() {
@@ -26,7 +26,7 @@ public class SSHConfig {
     }
 
     public void setHost(String host) {
-        this.host = host.replace("\"", "");
+        this.host = host;
     }
 
     public String getPwd() {
@@ -34,7 +34,7 @@ public class SSHConfig {
     }
 
     public void setPwd(String pwd) {
-        this.pwd = pwd.replace("\"", "");
+        this.pwd = pwd;
     }
 
     public int getToPort() {

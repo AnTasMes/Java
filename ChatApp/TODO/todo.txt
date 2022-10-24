@@ -44,7 +44,10 @@ Server:
 API ToDO: 
 [x] Setup server connection
 [x] Enable connection to db through ssh
-[] Basic UI
+[x] Basic UI
+ - Main Page
+ - Sing up page
+[] ChatApp UI
 [] Enable user creation
 [] Enable user validation
 [] Enable message creation

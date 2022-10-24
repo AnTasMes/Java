@@ -15,6 +15,7 @@ public class User {
     private String username;
     private String password;
     private String email;
+    private LocalTime dateAdded;
     private LocalTime lastSeen;
     private LocalTime lastTyped;
     private List<User> friends;
@@ -23,23 +24,32 @@ public class User {
 
     }
 
-    public User(String username, String password, String email, LocalTime lastSeen, LocalTime lastTyped,
-            List<User> friends) {
+    public User(String username, String password, String email, List<User> friends) {
         this.username = username;
         this.password = password;
         this.email = email;
-        this.lastSeen = lastSeen;
-        this.lastTyped = lastTyped;
         this.friends = friends;
+        this.lastSeen = LocalTime.now();
+        this.lastTyped = LocalTime.now();
+        this.dateAdded = LocalTime.now();
     }
 
-    public User(String username, String password, String email, LocalTime lastSeen, LocalTime lastTyped) {
+    public User(String username, String password, String email) {
         this.username = username;
         this.password = password;
         this.email = email;
-        this.lastSeen = lastSeen;
-        this.lastTyped = lastTyped;
         friends = new ArrayList<>();
+        this.lastSeen = LocalTime.now();
+        this.lastTyped = LocalTime.now();
+        this.dateAdded = LocalTime.now();
+    }
+
+    public LocalTime getDateAdded() {
+        return dateAdded;
+    }
+
+    public void setDateAdded(LocalTime dateAdded) {
+        this.dateAdded = dateAdded;
     }
 
     public ObjectId getObjectId() {

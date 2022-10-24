@@ -1,3 +1,10 @@
 {
-  "workbench.colorTheme": "Material Theme Ocean"
+  "workbench.colorTheme": "Material Theme Ocean",
+  "java.completion.filteredTypes": [
+    "com.sun.*",
+    "sun.*",
+    "jdk.*",
+    "org.graalvm.*",
+    "io.micrometer.shaded.*"
+  ]
 }
