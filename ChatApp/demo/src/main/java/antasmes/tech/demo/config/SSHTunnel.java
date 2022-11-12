@@ -17,14 +17,19 @@ public class SSHTunnel {
     private Session session;
     private ChannelExec channelExec;
 
-    @Bean
+    private SSHConfig sshConfig;
+
+    @Bean("sshinit")
     @Autowired
     public int init(SSHConfig sshConfig) throws Exception {
         String command = "echo Connected to the server";
 
-        ByteArrayOutputStream responseStream = setup(sshConfig, command);
+        this.sshConfig = sshConfig;
+
+        ByteArrayOutputStream responseStream = connect(command);
 
         if (responseStream == null) {
+            // Dont throw exception. Make retry after opening the app
             throw new NullPointerException("There has been an error while getting the response stream");
         }
 
@@ -47,7 +52,11 @@ public class SSHTunnel {
         }
     }
 
-    private ByteArrayOutputStream setup(SSHConfig sshConfig, String command) {
+    public Boolean makeConnection(String command) {
+        return connect(command) == null ? false : true;
+    }
+
+    private ByteArrayOutputStream connect(String command) {
         try {
             // SSH connection
             session = new JSch().getSession(

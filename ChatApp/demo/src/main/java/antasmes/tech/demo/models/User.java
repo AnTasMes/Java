@@ -12,6 +12,7 @@ import org.springframework.data.mongodb.core.mapping.MongoId;
 public class User {
     @MongoId
     private ObjectId objectId;
+
     private String username;
     private String password;
     private String email;
@@ -42,6 +43,15 @@ public class User {
         this.lastSeen = LocalTime.now();
         this.lastTyped = LocalTime.now();
         this.dateAdded = LocalTime.now();
+    }
+
+    // To String
+
+    @Override
+    public String toString() {
+        return "User [dateAdded=" + dateAdded + ", email=" + email + ", friends=" + friends + ", lastSeen=" + lastSeen
+                + ", lastTyped=" + lastTyped + ", objectId=" + objectId + ", password=" + password + ", username="
+                + username + "]";
     }
 
     public LocalTime getDateAdded() {

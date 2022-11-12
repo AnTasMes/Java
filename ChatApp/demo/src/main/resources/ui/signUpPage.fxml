@@ -12,8 +12,9 @@
     <children>
         <Label text="Create your account here" />
         <TextField fx:id="usernameInput" promptText="Username" />
-        <PasswordField fx:id="passwordInput" promptText="Password" />
-        <PasswordField fx:id="passwordInput" promptText="Confirm password" />
+        <TextField fx:id="emailInput" promptText="Email" />
+        <PasswordField fx:id="passwordInput" promptText="Password" onKeyTyped="#confirmPassword" />
+        <PasswordField fx:id="passwordConfirmInput" promptText="Confirm password" onKeyTyped="#confirmPassword" />
         <GridPane hgap="50" alignment="center">
             <Button fx:id="btnSignUp" text="Back to login" onAction="#switchToLogin"
                 GridPane.columnIndex="0" />

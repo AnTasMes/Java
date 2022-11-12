@@ -20,6 +20,7 @@ public class FXApp extends Application {
 
         applicationContext = new SpringApplicationBuilder()
                 .sources(DemoApplication.class)
+                .lazyInitialization(false)
                 .run(args);
     }
 

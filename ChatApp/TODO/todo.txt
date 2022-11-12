@@ -22,7 +22,7 @@ Tools:
     email,
     last_seen,
     last_typed,
-    friends: []
+    friends: [<user_id>, <user_id>, ...],
 }
 
 - Message:
@@ -41,17 +41,24 @@ Server:
 [x] Setup ssh mongo_user (no root privileges - without root password)
 [x] Enable db_admin user auth
 
+Connection:
+[] Enable connection checking
+[] Enable post-connect bean loading
+[] Enable lost connection warn
+
 API ToDO: 
 [x] Setup server connection
 [x] Enable connection to db through ssh
 [x] Basic UI
  - Main Page
  - Sing up page
+[] Fix navigator (dont go through event listener, but through main app)
 [] ChatApp UI
-[] Enable user creation
-[] Enable user validation
-[] Enable message creation
+[x] Enable user creation
+[x] Enable user validation
+[x] Enable message creation
 [] Enable user configuration
+[] Fix user creation and UUID
 
 Model ToDO:
 [x] User

@@ -14,9 +14,14 @@ public class UserConfig {
         System.out.println(connect.getSession());
         if (connect.getSession() != null)
             return args -> {
-                // User u = new User("AnTasMes", "1231", "mail");
-                // userRepository.insert(u);
+                // User AnTasMes = userRepository.findByUsername("AnTasMes").get();
+                // System.out.println(AnTasMes);
+                // List<User> friends = new ArrayList<>();
+                // friends.add(userRepository.findByUsername("Mark").get());
+                // AnTasMes.setFriends(friends);
+                // userRepository.save(AnTasMes);
             };
         return null;
     }
+
 }

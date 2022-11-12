@@ -13,18 +13,39 @@ public class Message {
     private String text_value;
     private LocalDate timestamp;
 
-    private String from_user_id;
-    private String to_user_id;
+    private ObjectId fromUserId;
+    private ObjectId toUserId;
 
     public Message() {
     }
 
-    public Message(String text_value, LocalDate timestamp, String from_user_id,
-            String to_user_id) {
+    public Message(ObjectId fromUserId, ObjectId toUserId) {
+        this.fromUserId = fromUserId;
+        this.toUserId = toUserId;
+        this.timestamp = LocalDate.now();
+    }
+
+    public Message(String testValue, ObjectId fromUserID, ObjectId toUserID) {
+        this.text_value = testValue;
+        this.fromUserId = fromUserID;
+        this.toUserId = toUserID;
+        this.timestamp = LocalDate.now();
+    }
+
+    public Message(String text_value, LocalDate timestamp, ObjectId fromUserID,
+            ObjectId toUserID) {
         this.text_value = text_value;
         this.timestamp = timestamp;
-        this.from_user_id = from_user_id;
-        this.to_user_id = to_user_id;
+        this.fromUserId = fromUserID;
+        this.toUserId = toUserID;
+    }
+
+    // toString
+
+    @Override
+    public String toString() {
+        return "Message [fromUserID=" + fromUserId + ", objectId=" + objectId + ", text_value=" + text_value
+                + ", timestamp=" + timestamp + ", toUserID=" + toUserId + "]";
     }
 
     public String getText_value() {
@@ -43,19 +64,19 @@ public class Message {
         this.timestamp = timestamp;
     }
 
-    public String getFrom_user_id() {
-        return from_user_id;
+    public ObjectId getfromUserId() {
+        return fromUserId;
     }
 
-    public void setFrom_user_id(String from_user_id) {
-        this.from_user_id = from_user_id;
+    public void setfromUserId(ObjectId fromUserId) {
+        this.fromUserId = fromUserId;
     }
 
-    public String getTo_user_id() {
-        return to_user_id;
+    public ObjectId gettoUserId() {
+        return toUserId;
     }
 
-    public void setTo_user_id(String to_user_id) {
-        this.to_user_id = to_user_id;
+    public void settoUserId(ObjectId toUserId) {
+        this.toUserId = toUserId;
     }
 }

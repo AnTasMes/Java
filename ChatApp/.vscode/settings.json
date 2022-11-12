@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "Material Theme Ocean",
+  "java.jdt.ls.java.home":"C:\\Program Files\\Java\\jdk-18.0.2",
   "java.completion.filteredTypes": [
     "com.sun.*",
     "sun.*",

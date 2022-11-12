@@ -17,6 +17,15 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>org.springframework.retry</groupId>
+			<artifactId>spring-retry</artifactId>
+			<version>${spring-retry.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>net.rgielen</groupId>
 			<artifactId>javafx-weaver-core</artifactId>
 			<version>1.3.0</version>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.geometry.Insets?>
+
+<VBox prefHeight="700" alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="antasmes.tech.demo.controllers.javaFx.MainPageController">
+    <children>
+        <Label text="Welcome to the demo app" />
+        <HBox alignment="CENTER">
+            <VBox>
+                <HBox>
+                    <Button fx:id="btnSettings" text="Settings" onAction="#openSettings" prefWidth="100" />
+                    <Button fx:id="btnAddFriend" text="Add" onAction="#addFriend" prefWidth="100" />
+                </HBox>
+                <ListView fx:id="friendsList" prefWidth="200" prefHeight="1020" />
+            </VBox>
+            <VBox>
+                <children>
+                    <ListView fx:id="messagesList" prefWidth="1000" prefHeight="1000"></ListView>
+                    <HBox fx:id="controls">
+                        <TextField fx:id="messageInput" promptText="Write a message..." prefWidth="900" prefHeight="120" />
+                        <Button fx:id="btnSend" text="Send" onAction="#sendMessage" prefWidth="100" prefHeight="120" />
+                    </HBox>
+                </children>
+            </VBox>
+        </HBox>
+    </children>
+    <padding>
+        <Insets bottom=" 20.0" left=" 20.0" right=" 20.0" top=" 20.0" />
+    </padding>
+</VBox>
